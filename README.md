@@ -1,7 +1,13 @@
 # prediction_project_design_framework
 How to design Prediction Project?
 
-- What are we trying to predict? (-> Prognosis or Diagnosis?)
+- What kind of Problem are we trying to solve?
+
+We want to avoid op fractures with reccomendations, which patients are most likely to benefit?
+(Too many diabetic patients, undiagnosed patients with HCV...)
+
+- What are we trying to predict (Diabetes in 5 years, existing HCV, CKD in 5 years, OP, Lung Cancer)?
+-> (is it a case of Prognosis or Diagnosis?)
 1. Prognosis -> Watch out for HTE (consider counterfactual predictions)
 2. Diagnosis -> Wath out for referal/workup bias (consider multiple imputation, exoganouse prevalence etc)
 
