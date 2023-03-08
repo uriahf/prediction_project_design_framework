@@ -8,7 +8,7 @@ We want to avoid op fractures with reccomendations, which patients are most like
 
 - What are we trying to predict (Diabetes in 5 years, existing HCV, CKD in 5 years, OP, Lung Cancer)?
 -> (is it a case of Prognosis or Diagnosis?)
-1. Prognosis -> Watch out for HTE (consider counterfactual predictions)
+1. Prognosis -> Watch out for heterogeneous treatment effect (consider counterfactual predictions)
 2. Diagnosis -> Wath out for referal/workup bias (consider multiple imputation, exoganouse prevalence etc)
 
 - What will we do with the predictions? (-> Are you worried about Treatment Harm or Resource Constraint?)
